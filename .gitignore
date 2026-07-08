@@ -1,0 +1,18 @@
+# Секреты — никогда не коммитить
+.env
+credentials.json
+*.env
+
+# Данные пациентов — не должны попадать в публичный репозиторий
+responses.jsonl
+*.jsonl
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
